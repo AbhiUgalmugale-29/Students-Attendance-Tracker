@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1 class="heading">Students Attendance Tracker</h1>
+    <h1 class="heading">Students Attendance Tracker 📝</h1>
 
     <div class="form-container">
         <input type="text" id="studentName" placeholder="Student Name">
@@ -18,10 +18,14 @@
             <option>Present</option>
             <option>Absent</option>
         </select>
-        <button id="addButton">Add Student</button>
+        <button id="addButton" onclick="addStudent()">Add Student</button>
     </div>
 
-    
+    <div id="students-container">
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
